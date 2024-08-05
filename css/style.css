@@ -538,3 +538,34 @@ footer .credit a {
 .box a:hover {
   text-decoration: underline;
 }
+
+
+/* Container for the member images */
+.members-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Individual member box */
+.member {
+  text-align: center;
+  width: calc(25% - 20px); /* 4 images per line, adjust for gap */
+}
+
+/* Circle images */
+.member-img {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Ensure height equals width for a perfect circle */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd; /* Optional border */
+}
+
+/* Member names */
+.member p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
