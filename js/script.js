@@ -1,3 +1,17 @@
+// script.js
+document.addEventListener('DOMContentLoaded', () => {
+  const hamburgerMenu = document.getElementById('hamburger-menu');
+  const navbarNav = document.querySelector('.navbar-nav');
+
+  hamburgerMenu.addEventListener('click', () => {
+    navbarNav.classList.toggle('active');
+  });
+});
+
+
+
+
+
 // Toggle claas active
 
 const navbarNav = document.querySelector(".navbar-nav");
